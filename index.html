@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="appointments.html">Appointment</a></li>
+            <li><a href="doctors.html">Doctors</a></li>
+            <li class="dropdown">
+                <a href="departments.html">Departments &#9662;</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Dentist</a></li>
+                    <li><a href="#">Cardiologist</a></li>
+                    <li><a href="#">Neurologist</a></li>
+                    <li><a href="#">Orthopedic</a></li>
+                    <li><a href="#">Gynecologist</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section with Parallax -->
+<section class="hero">
+    <h1>Welcome to Our Hospital</h1>
+</section>
+
+<!-- First Content Section -->
+<section class="content">
+    <h2>About Us</h2>
+    <p>We provide top-quality medical services with the best doctors.</p>
+</section>
+
+
+<!-- Parallax Effect Section -->
+<section class="parallax-section">
+    <h2>Advanced Medical Facilities</h2>
+</section>
+
+<!-- Another Content Section -->
+<section class="content">
+    <h2>Our Departments</h2>
+    <p>Explore different medical departments in our hospital.</p>
+</section>
+
+<!-- Second Parallax Section -->
+<section class="parallax-section">
+    <h2>Book Your Appointment Today</h2>
+</section>
+<section id="services">
+    <h2 class="section-title">Our Services</h2>
+    <div class="card-container">
+
+        <!-- Anaesthesia -->
+        <div class="card">
+            <img src="seven.png" alt="Anaesthesia">
+            <h3>Anaesthesia</h3>
+            <p>Pain management and sedation for surgeries.</p>
+        </div>
+
+        <!-- Arthroscopy -->
+        <div class="card">
+            <img src="eight.jpeg" alt="Arthroscopy">
+            <h3>Arthroscopy</h3>
+            <p>Minimally invasive joint surgery.</p>
+        </div>
+
+        <!-- Cardiology -->
+        <div class="card">
+            <img src="nine.jpeg" alt="Cardiology">
+            <h3>Cardiology</h3>
+            <p>Heart disease diagnosis and treatment.</p>
+        </div>
+
+        <!-- Gastroenterology -->
+        <div class="card">
+            <img src="ten.jpeg" alt="Gastroenterology">
+            <h3>Gastroenterology</h3>
+            <p>Digestive system treatments.</p>
+        </div>
+
+        <!-- Nephrology -->
+        <div class="card">
+            <img src="eleven.jpeg" alt="Nephrology">
+            <h3>Nephrology</h3>
+            <p>Kidney disease care and treatments.</p>
+        </div>
+
+        <!-- Obstetrics & Gynaecology -->
+        <div class="card">
+            <img src="twelve.png" alt="Obstetrics & Gynaecology">
+            <h3>Obstetrics & Gynaecology</h3>
+            <p>Women's health, pregnancy, and childbirth.</p>
+        </div>
+
+        <!-- Pathology -->
+        <div class="card">
+            <img src="thirteen.png" alt="Pathology">
+            <h3>Pathology</h3>
+            <p>Laboratory testing and disease diagnosis.</p>
+        </div>
+
+        <!-- Pulmonology -->
+        <div class="card">
+            <img src="fifteen.png" alt="Pulmonology">
+            <h3>Pulmonology</h3>
+            <p>Lung and respiratory system treatments.</p>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Swiper.js CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+<!-- Swiper.js Script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js" defer></script>
+<section id="feedback">
+    <h2 class="section-title">What Our Patients Say</h2>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+            <!-- Review 1 -->
+            <div class="swiper-slide review-card">
+                <img src="five.png" alt="Patient">
+                <p>"The doctors and staff were very professional. I had a great experience!"</p>
+                <h4>- John Doe</h4>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="swiper-slide review-card">
+                <img src="three.jpeg" alt="Patient">
+                <p>"Excellent service and top-quality care. Highly recommended!"</p>
+                <h4>- Sarah Wilson</h4>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="swiper-slide review-card">
+                <img src="six.png" alt="Patient">
+                <p>"The best hospital experience I’ve had. Very friendly staff."</p>
+                <h4>- Michael Brown</h4>
+            </div>
+
+        </div>
+
+        <!-- Swiper Pagination & Navigation -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+
+
+    <footer>
+    </footer>
+    
+    <script>src="script.js"</script>
+</body>
+</html>
